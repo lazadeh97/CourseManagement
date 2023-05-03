@@ -11,7 +11,7 @@ namespace CourseManagement.Models
     {
         public string No { get; set; }
         public GroupCategory Category  { get; set; }
-        public bool isOnline { get; set; }
+        public OnlineType isOnline { get; set; }
         public GroupLimit Limit { get; set; }
         public Student Students { get; set; }
     }
